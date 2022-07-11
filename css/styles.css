@@ -1,0 +1,124 @@
+/*----------- Typography -----------*/
+
+header a, .form-control{
+	font-family: 'Jaldi', sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+
+#hashtag{
+	font-family: 'Shanti', sans-serif;
+	font-size: 2rem;
+}
+
+#id{
+	font-family: font-family: 'Voces', cursive;
+}
+
+.display-4{
+	font-family: 'Jaldi', sans-serif;
+	font-weight: 700;
+	font-size: 3rem;
+}
+
+h1, h2, h3, .font1{
+	font-family: 'Jaldi', sans-serif;
+	font-weight: 700;
+}
+
+h4, h5, .font2{
+	font-family: 'Shanti', sans-serif;
+}
+
+p, button, a,  ul li, #btn, .font3{
+	font-family: font-family: 'Voces', cursive;
+}
+
+#about li{
+	font-size: 1.1rem;
+}
+
+h5 span{
+	font-weight: 900;
+}
+
+/*----------- Portfolio -----------*/
+
+.vcard {
+	width: 29%;
+    object-fit: cover;
+}
+
+.videoutmsu video{
+	width: 100%;
+}
+
+.backgroundutmsu img{
+	width: 90%;
+}
+
+/*----------- Colors -----------*/
+
+.bg-light{
+	background-color: #ffffff!important;;
+}
+
+.bg-dark, .btn{
+	background-color: #6b9080!important;
+}
+
+.bg-success{
+	background-color: #a4c3b2!important;
+}
+
+header, .navbar, .bg-secondary, .linkul{
+	background-color: #cce3de!important;
+}
+
+.text-muted{
+	color: #6b9080!important;
+}
+
+/* Code Reference: https://forum.pinegrow.com/t/accordion-change-color-of-open-section/3401/3 */
+.accordion-item [aria-expanded="true"]{
+	background-color: #cce3de!important;
+	color: #000000!important;
+}
+
+/*----------- Portfolio Cards & Background Image -----------*/
+
+#nodis {
+	background-image: url(../img/portfolio/nodis/company.png);
+	background-size: 600px 200px;
+	background-repeat: no-repeat;
+	background-position: 30% 40%;
+	background-blend-mode: soft-light;
+}
+
+#ccit{
+	background-image: url(../img/portfolio/iccit/logo.png);
+	background-size: 500px 500px;
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	background-blend-mode: soft-light;
+}
+
+#gb {
+	background-image: url(../img/portfolio/utmgb/logo.png);
+	background-size: 500px 500px;
+	background-repeat: no-repeat;
+	background-position: 50% 60%;
+	background-blend-mode: soft-light;
+}
+
+#utmsu {
+	background-image: url(../img/portfolio/utmsu/logo.png);
+	background-size: 400px 200px;
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	background-blend-mode: soft-light;
+}
+
+#profile{
+	background-image: var(--bs-gradient);
+}
